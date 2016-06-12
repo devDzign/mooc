@@ -5,7 +5,7 @@ services:
       class: OC\PlatformBundle\Antispam\OCAntispam
       arguments:
           - "@mailer"
-          - %locale%
+          - "%locale%"
           - 50
 
   oc_platform.email.application_mailer:
